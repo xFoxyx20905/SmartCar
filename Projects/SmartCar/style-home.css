@@ -1,0 +1,228 @@
+/*
+----- Tesla Font Import -----
+*/
+
+@import url('https://fonts.cdnfonts.com/css/tesla-2');
+
+/*
+----- Base Page Design -----
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  
+  body {
+    margin:0;
+    background-color: var(--background-color-body);
+    color: var(--text-color-body);
+
+    font-family: 'TESLA', sans-serif;
+  }
+  
+  /*
+  ----- Home Header -----
+  */
+
+  .Home_Header {
+    position: absolute;
+    width: 90%;
+    height: 10px;
+    background-color: var(--background-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    left: 5%;
+    top: 2.5%;
+
+    font-size: 20px;
+  }
+
+  /*
+  ----- Home Theme -----
+  */
+
+  [data-theme='dark'] {
+    --background-color-home: #333;
+    --text-color-home: white;
+    --icon-color-home: white;
+  }
+
+  [data-theme='light'] {
+    --background-color-home: #ccc;
+    --text-color-home: black;
+    --icon-color-home: black;
+  }
+
+  /*
+  ----- Battery Widget -----
+  */
+
+  .Battery {
+    position: absolute;
+    width: 40%;
+    height: 11%;
+    background-color: var(--background-color-home);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-radius: 10px;
+    left: 5%;
+    top: 10%;
+
+    font-size: 20px;
+  }
+
+  .Battery p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+
+  /*
+  ----- Placeholder Widget -----
+  */
+
+  .Placeholder {
+    position: absolute;
+    width: 40%;
+    height: 11%;
+    background-color: var(--background-color-home);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-radius: 10px;
+    left: 5%;
+    top: 25%;
+
+    font-size: 20px;
+  }
+
+  .Placeholder p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+
+  /*
+  ----- Location Widget -----
+  */
+
+  .Location {
+    position: absolute;
+    width: 40%;
+    height: 26%;
+    background-color: var(--background-color-home);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-radius: 10px;
+    right: 5%;
+    top: 10%;
+
+    font-size: 20px;
+  }
+
+  .Location p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+
+  /*
+  ----- Analytics Widget -----
+  */
+
+  .Small_Analytics {
+    position: absolute;
+    width: 90%;
+    height: 25%;
+    background-color: var(--background-color-home);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-radius: 10px;
+    left: 5%;
+    top: 40%;
+
+    font-size: 20px;
+  }
+
+  .Small_Analytics p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+
+  /*
+  ----- Battery Data -----
+  */
+
+  .Battery_data {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    left: 30px;
+    top: 10px;
+
+    font-size: 300%;
+  }
+
+  .Battery_data p {
+    top: 40%;
+    left: 35%;
+
+    font-size: 20px;
+  }
+
+  /*
+  ----- Analytics Data -----
+  */
+
+  .Small_Analytics_data {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+  }
+
+  .Small_Analytics_data p {
+    top: 50%;
+  }
+
+  /*
+  ----- Location Data -----
+  */
+
+  .Location_data {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+  }
+
+  .Location_data p {
+    top: 50%;
+  }

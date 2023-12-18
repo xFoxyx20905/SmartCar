@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SmartCar - Controlls</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS for this HTML -->
+        <link rel="stylesheet" href="./style-controlls.css">
+        
+        <!-- CSS shared accross all HTMLS -->
+        <link rel="stylesheet" href="./style-theme.css">
+        <link rel="stylesheet" href="./style-nav.css">
+    </head>
+    <body>
+        <!-- Navigation div -->
+        <div class='navigation'>
+            <ul>
+                <li class="list" style="--clr:#ee00ff"><a href="SmartCar-Analytics.html"><span class="icon">
+                            <ion-icon name="analytics-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list active" style="--clr:#be29ff"><a href="SmartCar-Controlls.html" onclick="delayAction"><span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#8758ff"><a href="SmartCar-Home.html"><span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#4194ff"><a href="SmartCar-Contact.html"><span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#00ccff"><a href="SmartCar-Options.html"><span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span></a></li>
+                <div class="indicator"></div>
+            </ul>
+        </div> 
+        
+        <!-- Header div -->
+        <div class="Controlls_Header">
+            <h1>Controlls</h1>
+        </div>
+
+       <!-- Window Widget div -->
+       <div class="Window">
+        <p>Windows Up/Down</p>
+        <input type="button" name="Window" id="window_controll"></input>
+       </div>
+       
+       <!-- Window Status div -->
+       <div class="Window_Status">
+        <p>State:</p>
+        <!-- Window Data div -->
+        <div class="Window_Data">
+            <p>-N/A-</p>
+        </div>
+       </div>
+
+       <!-- AC Widget div -->
+       <div class="AC">
+        <p>ACs On/Off</p>
+        <input type="button" name="AC" id="AC_controll"></input>
+       </div>
+
+       <!-- AC Status div -->
+       <div class="AC_Status">
+        <p>State:</p>
+        <!-- AC Data div -->
+        <div class="AC_Data">
+            <p>-N/A-</p>
+        </div>
+       </div>
+
+       <!-- Lock Widget div -->
+       <div class="Lock">
+        <p>Car Lock/Unlock</p>
+        <input type="button" name="Lock" id="Lock_controll"></input>
+       </div>
+       
+       <!-- Lock Status div -->
+       <div class="Lock_Status">
+        <p>State:</p>
+        <!-- Lock Data div -->
+        <div class="Lock_Data">
+            <p>-N/A-</p>
+        </div>
+       </div>
+       
+       <!-- Smart Call Widget div -->
+       <div class="Smart_Call">
+        <p>Smart Call</p>
+        <input type="button" name="Smart_Call" id="Smart_Call_controll"></input>
+       </div>
+
+       <!-- Start Car Widget div -->
+       <div class="Start_Car">
+        <p>Start Car</p>
+        <input type="button" name="Start_Car" id="Start_Car_controll"></input>
+       </div>
+        
+        <!-- scpripts that import icons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        <!-- scripts shared accross all HTMLS -->
+        <script src="./script-theme.js"></script>
+        <script src="./script-nav.js"></script>
+        <script src="./script-language.js"></script>
+
+        <!-- scripts for this HTML -->
+        <script src="./script-controlls.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,32 @@
+/*
+----- Theme Change for every Page -----
+*/
+
+:root {
+    --background-color: white;
+    --text-color: black;
+  }
+
+  html[data-theme='dark'] {
+    --background-color-body: #222;
+    --text-color-body: white;
+  }
+
+  html[data-theme='light'] {
+    --background-color-body: #ddd;
+    --text-color-body: black;
+  }
+
+  [data-theme='dark'] .navigation{
+    --background-color-nav: #333;
+    --background-color-navul: #555;
+    --text-color-nav: white;
+    --icon-color-nav: white;
+  }
+
+  [data-theme='light'] .navigation{
+    --background-color-nav: #ccc;
+    --background-color-navul: #aaa;
+    --text-color-nav: black;
+    --icon-color-nav: black;
+  }

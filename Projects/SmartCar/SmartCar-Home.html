@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SmartCar - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS for this HTML -->
+        <link rel="stylesheet" href="./style-home.css">
+
+        <!-- CSS shared accross all HTMLS -->
+        <link rel="stylesheet" href="./style-theme.css">
+        <link rel="stylesheet" href="./style-nav.css">
+    </head>
+    <body>
+        <!-- Navigation div -->
+        <div class='navigation'>
+            <ul>
+                <li class="list" style="--clr:#ee00ff"><a href="SmartCar-Analytics.html"><span class="icon">
+                            <ion-icon name="analytics-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#be29ff"><a href="SmartCar-Controlls.html" onclick="delayAction"><span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list active" style="--clr:#8758ff"><a href="SmartCar-Home.html"><span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#4194ff"><a href="SmartCar-Contact.html"><span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span></a></li>
+                <li class="list" style="--clr:#00ccff"><a href="SmartCar-Options.html"><span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span></a></li>
+                <div class="indicator"></div>
+            </ul>
+        </div> 
+
+        <!-- Header div -->
+        <div class="Home_Header">
+            <h1>Home</h1>
+        </div>
+
+        <!-- Battery Widget div -->
+        <div class="Battery">
+            <p>Battery:</p>
+            <!-- Battery data div -->
+            <div class="Battery_data">
+                <ion-icon id="batteryIcon" name="battery-full"></ion-icon>
+                <p id="batteryStatus">-N/A-</p>
+            </div>
+        </div>
+
+        <!-- Placeholder Widget div -->
+        <div class="Placeholder">
+            <p>Placeholder:</p>
+        </div>
+
+        <!-- Location Widget div -->
+        <div class="Location" id="locationWidget">
+            <p>Location:</p>
+            <!-- Location data div -->
+            <div class="Location_data" id="locationData">
+                <p>-N/A-</p>
+            </div>
+        </div>
+
+        <!-- Analytics Widget div -->
+        <div class="Small_Analytics">
+            <p>Analytics:</p>
+            <!-- Analytics data div -->
+            <div class="Small_Analytics_data">
+                <p>-N/A-</p>
+            </div>
+        </div>
+        
+        <!-- scpripts that import icons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!-- scripts shared accross all HTMLS -->
+        <script src="./script-theme.js"></script>
+        <script src="./script-nav.js"></script>
+        <script src="./script-language.js"></script>
+
+        <!-- scripts for this HTML -->
+        <script  src="./script-home.js"></script>
+    </body>
+</html>

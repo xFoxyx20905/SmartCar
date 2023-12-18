@@ -1,0 +1,127 @@
+The Task:
+Create a App which can connect with a Car.
+At the End the App should be able display some data of the car as well as control some functions.
+
+For example:
+    - The App should be able to show the Battery Charge when it is connected to a electric car.
+    - You should be able to roll the windows up and down.
+    - Turn the AC on/off (Dog mode maybe)
+    - Start the Car.
+    - Smart Call.
+
+Also Document what you have learned and what significant changes you made to the Code.
+
+Used Softwares:
+    - vsCode
+    - MySQL
+    - XAMPP
+    - Android Studio
+
+vsCode Extensions:
+    - Live preview
+    - HTML CSS Support
+    - .NET Install Tool
+
+Time wasted on this: 80h
+
+Day 1:
+Learned about the basics of an HTML.
+    - How to creacte an HTML file.
+    - How an HTML file works.
+    - How to create Titles, Headers, Paragraphs, etc.
+
+Learned a bit about CSS.
+    - Intern, Extern CSS
+
+Created a HTML file for a planned log-in screen.
+Designed the Screen with CSS.
+
+Day 2
+Research on how to set up a Autentification/Log-in.
+    - Needed: MySQL Server
+    - PHP file
+
+Learned a bit of PHP and created a PHP file.
+
+Created the Home Page for the App.
+Added a Navigation bar at the bottom of the screen.
+Also inserted Icons for the Navigation bar options.
+
+Day 3:
+Set up a MySQL Server and added User database.
+Troubleshooting romte connection to the Server.
+
+Changed the design of the log in boxes in the Log-in menu.
+
+Day 4:
+Gave Navigation Bar proper function.
+
+Added the Controlls and Contact page and linked these to the nav bar.
+Learned about Grids.
+
+Day 5:
+Small redesign on the Nav bar.
+
+Scraped the grid idea.
+
+Fiddeled around with gradients.
+
+Redesign of the Log in Page.
+Added JS for Login functions
+
+Day 6:
+Added a Analytics and Options Page.
+Within the Options Page:
+    - Added a Dark/Light Theme button that goes for all 5 Pages.
+    - Added a Log out button that sends the user back to the login page.
+
+Updated the Navigation Javascript that changes the Page 0.3 sec after the Navigation Bar animation played out.
+Created new CSS Files that contain the code the Navigation bar and the Dark/Light Themes.
+Created new JS File for the Dark/Light Theme function
+
+Moved the Navigation Bar code to the new CSS/JS file.
+Moved the Dark/Light Theme code to the new CSS/JS file.
+
+Removed unneccesary files that weren't needed.
+
+Added the new css links and js scripts to the htmls.
+
+Prepared the MySQL Server with log in data for the Group.
+View preparations for running the php for login.
+
+Day 7:
+Started with the Layouts for the missing pages.
+Home Screen Layout:
+    - Battery Charge
+    - Car Location
+    - Analytics
+Analytics Screen Layout:
+    - Battery Usage
+Controlls Layout:
+    - Windows buttons
+
+Day 8:
+Contact Screen Layout:
+    - Parent Field for widgets.
+Options Screen:
+    - Added Language Field 
+        - No function so far
+
+Day 9:
+Home Screen:
+    - Added the Output data div 
+        - Function needs to be done (PRIORITY: MEDIUM)
+Controlls Screen:
+    - Added the Status Value which still needs proper function
+        - PRIORITY: HIGH
+Analytics Screen:
+    - Added Battery Analytics
+        - PRIORITY: LOW
+Contact Screen:
+    - Contact Information missing
+        - PRIORITY: LOW
+Options Screen:
+    - Language Option in works
+        - PRIORITY: LOW
+
+Day 10:
